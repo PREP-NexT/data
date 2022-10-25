@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview of Approach &mdash; GDFC documentation</title>
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+    <link rel="top" title="GDFC  documentation" href="index.html"/>
+        <link rel="next" title="References" href="refs.html"/>
+        <link rel="prev" title="Introduction" href="intro.html"/> 
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="fa fa-home"> GDFC</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a><ul>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="approach.html">Overview of Approach</a><ul>
+</ul>
+<li class="toctree-l1"><a class="reference internal" href="products.html">Deliverables/Products</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="products.html#catalogue">Catalogue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products.html#hazard-maps">Hazard Maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products.html#standardized-indices">Standardized Indices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products.html#meteorological-forcings">Meteorological Forcings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products.html#LSM-fluxes-states">Land Surface Hydrological Fluxes and States</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="refs.html">References</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">GDFC</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Overview of Approach</li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+<div class="section" id="approach">
+<h1>Overview of Approach<a class="headerlink" href="#approach" title="Permalink to this headline">¶</a></h1>
+<p>The GDFC <a class="reference internal" href="refs.html#HEXG-BAMS-2020">[He et al., 2020]</a> focuses on droughts and large-scale floods (both pluvial and fluvial). It builds upon legacy systems developed previously at global <a class="reference internal" href="refs.html#Sheffield-JGR-2007">[Sheffield and Wood, 2007, </a><a class="reference internal" href="refs.html#Sheffied-JCLI-2008">2008]</a> and regional <a class="reference internal" href="refs.html#Sheffield-BAMS-2014">[Sheffield et al., 2014]</a> scales, making use of existing models and datasets, but has been enhanced in the following aspects to provide better estimates of the global terrestrial hydrological cycle and its extremes <a class="reference internal" href="#GDFC-flowchart">[Figure 1]</a>. We first extend the existing long-term global meteorological dataset (Princeton Global Forcings, PGF, <a class="reference internal" href="refs.html#Sheffield-JCLI-2006">[Sheffield et al., 2006]</a>) from 1950 to 2016, which is also enhanced in its spatial resolution (0.25<span>&#176;</span>) through statistical downscaling and corrected for temporal and spatial inconsistencies. This new version (v3) of the PGF is then utilized to drive an updated version of the Variable Infiltration Capacity (<a href="https://vic.readthedocs.io/en/master/">VIC</a>, <a class="reference internal" href="refs.html#Liang-JGR-1994">[Liang et al., 1994</a> <a class="reference internal" href="refs.html#Liang-GPC-1996">, 1996</a>; <a class="reference internal" href="refs.html#Cherkauer-GPC-2003">Cherkauer et al., 2003]</a>) land surface model to obtain an improved estimate of soil moisture and runoff variability that is key to understanding changes in drought and flood (pluvial and fluvial) risk. We also implement a newly developed global routing and hydrodynamic model CaMa-Flood (Catchment-based Macro-scale Floodplain model, <a class="reference internal" href="refs.html#Yamazaki-WRR-2011">[Yamazaki et al., 2011]</a>) to explicitly characterize flood stage (e.g., inundation area and water level) and river discharge. Related hydrological variables (e.g., 3-month accumulative precipitation from the PGFv3 and monthly soil moisture simulated from VIC) are then transformed to standardized indices. Given the dynamic nature of hydrologic extremes, a joint spatial-temporal analysis is performed to investigate how droughts and pluvials propagate, merge (two events merging into one) or break up (an event splitting into two or more events separated in space) through time and space. We utilize a Severity-Area-Duration (SAD, <a class="reference internal" href="refs.html#Andreadis-JHM-2005">[Andreadis et al., 2005</a>; <a class="reference internal" href="refs.html#Sheffield-JCLI-2009">Sheffield et al., 2009</a>; <a class="reference internal" href="refs.html#Zhan-JGR-2016">Zhan et al., 2016]</a>) clustering algorithm to identify spatially contiguous drought and pluvial events over six continents (excluding Antarctica) and examine the stationarity of their evolution through the estimation of their time-varying frequency. Characteristics (i.e., frequency, spatial extent, severity) of drought and pluvial events (and their associated flooding) are synthesized into a catalogue with a particular focus on characterizing the long-term variability in risk from both a univariate and multivariate perspective.</p>
+<div class="figure" id="GDFC-flowchart">
+<img alt="_images/FlowChart_GDFC.png" src="_images/FlowChart_GDFC.png" />
+<p class="caption" td align="center">Figure 1. Schematic of the overall framework illustrating three major steps to develop the Global Drought and Flood Catalogue (GDFC). (1) Generating long-term and consistent hydrologic datasets using state-of-the-art physically-based hydrologic modeling platform which includes hybrid meteorological forcings (PGFv3), improved land surface modeling (VIC), and enhanced hydrodynamic model (CaMa-Flood). (2) Robust quantification of drought and flood/pluvial risk based on a suite of statistical post-processing procedures, including the statistical transformation of hydrologic data into standardized indices for drought and large-scale flood identification, spatial and temporal clustering analysis, univariate risk analysis and multivariate dependence modeling. (3) Developing a meta-database to deliver products and catalogues (e.g., drought and pluvial inventory at the continental scale, global risk maps for different types of hydrological extremes, and an online web portal) which enables dissemination of knowledge and data to the wider scientific community. See <a class="reference internal" href="refs.html#HEXG-BAMS-2020">He et al. (2020)</a> for details.</p>
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="products.html" class="btn btn-neutral float-right" title="References"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="intro.html" class="btn btn-neutral" title="Introduction"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Xiaogang He.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+
+</body>
+</html>
