@@ -4,7 +4,7 @@
 <br />
 <h1>GDFC: A Global Drought and Flood Catalogue from 1950 to 2016</h1>
 <p>
-The GDFC [He et al., 2020] provides consistent estimates of large-scale drought and flood events over 1950-2016, their multi-variate characteristics and long-term risk.
+GDFC provides consistent estimates of large-scale drought and flood events over 1950-2016, their multi-variate characteristics and long-term risk.
 </p>
 <p align="center">
 <a href="https://github.com/PREP-NexT/data" alt="GitHub contributors">
