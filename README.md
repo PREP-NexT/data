@@ -1,4 +1,4 @@
-![GDFC logo](./GDFC/GDFC/_images/GDFC_logo.png)
+![GDFC logo](./GDFC/_images/GDFC_logo.png)
 
 <div align="center">
 <br />
