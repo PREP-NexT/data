@@ -18,6 +18,7 @@ The GDFC [He et al., 2020] provides consistent estimates of large-scale drought 
 <a href="https://github.com/XiaogangHe/InVEST-Cities-in-Nature" alt="License">
 <img src="https://img.shields.io/github/license/XiaogangHe/InVEST-Cities-in-Nature.svg" /></a>
 </p>
+</div>
 
 ## Citation
 He, X., M. Pan, Z. Wei, E. F. Wood, and J. Sheffield, 2020: [A Global Drought and Flood Catalogue from 1950 to 2016](https://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-18-0269.1). Bulletin of the American Meteorological Society.
