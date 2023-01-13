@@ -1,4 +1,4 @@
-![GDFC logo](./GDFC/_images/GDFC_logo.png)
+![GDFC_logo](https://user-images.githubusercontent.com/7798592/212280005-3d022c4d-e2de-4202-a087-7a557cb9c61c.png)
 
 <div align="center">
 <br />
