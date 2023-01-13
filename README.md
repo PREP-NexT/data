@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/XiaogangHe/InVEST-Cities-in-Nature/blob/main/website/static/img/logo-light.png" alt="GDFC logo" height ="auto" width="200" />
+<img src="/GDFC/_images/GDFC_logo.png" alt="GDFC logo" height ="auto" width="200" />
 <br />
 <h1>GDFC: A Global Drought and Flood Catalogue from 1950 to 2016</h1>
 <p>
