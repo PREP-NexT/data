@@ -1,9 +1,9 @@
 <div align="center">
-<img src="https://github.com/XiaogangHe/InVEST-Cities-in-Nature/blob/main/website/static/img/logo-light.png" alt="Citis in Nature logo" height ="auto" width="200" />
+<img src="https://github.com/XiaogangHe/InVEST-Cities-in-Nature/blob/main/website/static/img/logo-light.png" alt="GDFC logo" height ="auto" width="200" />
 <br />
 <h1>GDFC: A Global Drought and Flood Catalogue from 1950 to 2016</h1>
 <p>
-Repository for the InVEST tutorial website, hosting resources for NUS Cities in Nature module.
+The GDFC [He et al., 2020] provides consistent estimates of large-scale drought and flood events over 1950-2016, their multi-variate characteristics and long-term risk.
 </p>
 <p align="center">
 <a href="https://github.com/XiaogangHe/InVEST-Cities-in-Nature" alt="GitHub contributors">
