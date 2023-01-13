@@ -7,16 +7,12 @@
 The GDFC [He et al., 2020] provides consistent estimates of large-scale drought and flood events over 1950-2016, their multi-variate characteristics and long-term risk.
 </p>
 <p align="center">
-<a href="https://github.com/XiaogangHe/InVEST-Cities-in-Nature" alt="GitHub contributors">
-<img src="https://img.shields.io/github/contributors/XiaogangHe/python-climate-visuals.svg" /></a>
-<a href="https://github.com/XiaogangHe/InVEST-Cities-in-Nature" alt="GitHub issues by-label">
-<img src="https://img.shields.io/github/issues/XiaogangHe/InVEST-Cities-in-Nature" /></a>
-<a href="https://PREP-SHOT.slack.com/" alt="Slack">
-<img src="https://img.shields.io/badge/Slack-@layer5.svg?logo=slack" /></a>
+<a href="https://github.com/PREP-NexT/data" alt="GitHub contributors">
+<img src="https://img.shields.io/github/contributors/PREP-NexT/data.svg" /></a>
+<a href="https://github.com/PREP-NexT/data" alt="GitHub issues by-label">
+<img src="https://img.shields.io/github/issues/PREP-NexT/data" /></a>
 <a href="https://twitter.com/Xiaogang_He" alt="Twitter Follow">
 <img src="https://img.shields.io/twitter/follow/Xiaogang_He.svg?label=Follow&style=social" /></a>
-<a href="https://github.com/XiaogangHe/InVEST-Cities-in-Nature" alt="License">
-<img src="https://img.shields.io/github/license/XiaogangHe/InVEST-Cities-in-Nature.svg" /></a>
 </p>
 </div>
 
