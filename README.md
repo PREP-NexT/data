@@ -1,5 +1,6 @@
+![GDFC logo](./GDFC/GDFC/_images/GDFC_logo.png)
+
 <div align="center">
-<img src="/GDFC/_images/GDFC_logo.png" alt="GDFC logo" height ="auto" width="200" />
 <br />
 <h1>GDFC: A Global Drought and Flood Catalogue from 1950 to 2016</h1>
 <p>
