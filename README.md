@@ -2,9 +2,9 @@
 
 <div align="center">
 <br />
-<h1>
+<h3>
 GDFC provides consistent estimates of large-scale drought and flood events over 1950-2016, their multi-variate characteristics and long-term risk.
-</h1>
+</h3>
 <p align="center">
 <a href="https://github.com/PREP-NexT/data" alt="GitHub contributors">
 <img src="https://img.shields.io/github/contributors/PREP-NexT/data.svg" /></a>
